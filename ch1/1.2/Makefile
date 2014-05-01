@@ -1,8 +1,8 @@
 CFLAGS=-Wall -g -std=gnu99
 LDLIBS=-lm
 
-temps:
-	gcc -o temps temps.c
+all:
+	make temps
 
 clean:
 	rm -f temps
